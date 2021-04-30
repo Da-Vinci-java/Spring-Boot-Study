@@ -1,0 +1,9 @@
+server:
+  port: 80
+spring:
+  mvc:
+    view:
+      #路径
+      prefix: classpath:/templates/
+      #后缀
+      suffix: .html
